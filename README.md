@@ -44,7 +44,7 @@
     }
   </style>
 </head>
-<body>
+<body/>
   <h1>Listado de Productos</h1>
   <table>
     <tr>
