@@ -1,9 +1,5 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Listado de Productos</title>
-</head>
 <body>
   <h1>Listado de Productos</h1>
   <table>
