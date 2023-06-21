@@ -2,8 +2,24 @@
 <html>
 </head>
 <body/>
+  table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: lightgray;
+}
+
+td {
+  background-color: lightpink;
+}
+
+body {
+  background-color: lavender;
+}
+
   <h1>Listado de Productos</h1>
-  <table>
     <tr>
       <th>Código</th>
       <th>Nombre</th>
