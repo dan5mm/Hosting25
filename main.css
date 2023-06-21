@@ -1,4 +1,4 @@
-<title>Listado de Productos</title> <style> /* Estilos para la tabla */ table { width: 100%; border-collapse: collapse; }
+table { width: 100%; border-collapse: collapse; }
 th, td {
   padding: 8px;
   text-align: left;
@@ -32,4 +32,3 @@ td.precio {
 td.existencia {
   background-color: #f5f5f5;
 }
-</style>
