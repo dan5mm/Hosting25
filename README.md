@@ -1,25 +1,53 @@
+
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Listado de Productos</title>
+  <style>
+    /* Estilos para la tabla */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    /* Colores empresariales */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+
+    td.codigo {
+      background-color: #ddd;
+    }
+
+    td.precio {
+      background-color: #e0e0e0;
+    }
+
+    td.existencia {
+      background-color: #f5f5f5;
+    }
+  </style>
 </head>
-<body/>
-  table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th {
-  background-color: lightgray;
-}
-
-td {
-  background-color: lightpink;
-}
-
-body {
-  background-color: lavender;
-}
-
+<body>
   <h1>Listado de Productos</h1>
+  <table>
     <tr>
       <th>Código</th>
       <th>Nombre</th>
