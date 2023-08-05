@@ -1,44 +1,28 @@
-<!DOCTYPE html>
-<html>
-<body>
-  <h1>Listado de Productos</h1>
-  <table>
-    <tr>
-      <th>Código</th>
-      <th>Nombre</th>
-      <th>Precio</th>
-      <th>Existencia</th>
-    </tr>
-    <tr>
-      <td class="codigo">001</td>
-      <td>Jabon</td>
-      <td class="precio">Q10.00</td>
-      <td class="existencia">10 unidades</td>
-    </tr>
-    <tr>
-      <td class="codigo">002</td>
-      <td>Shampoo</td>
-      <td class="precio">Q15.00</td>
-      <td class="existencia">5 unidades</td>
-    </tr>
-    <tr>
-      <td class="codigo">003</td>
-      <td>Toallas Humedas</td>
-      <td class="precio">Q20.00</td>
-      <td class="existencia">2 unidades</td>
-    </tr>
-    <tr>
-        <td class="codigo">003</td>
-        <td>Desinfectante</td>
-        <td class="precio">Q12.00</td>
-        <td class="existencia">2 unidades</td>
-      </tr>
-      <tr>
-        <td class="codigo">003</td>
-        <td>Crema Hidratante</td>
-        <td class="precio">Q25.00</td>
-        <td class="existencia">2 unidades</td>
-      </tr>
-  </table>
-</body>
-</html>
+Algoritmo DeterminarPrimo
+    Definir numero, divisor, esPrimo como Entero
+    esPrimo <- 1
+    
+    Escribir "Ingrese un número:"
+    Leer numero
+    
+    Si numero <= 1 Entonces
+        esPrimo <- 0
+    Sino Si numero <= 3 Entonces
+			esPrimo <- 1
+		Sino
+			divisor <- 2
+			
+			Mientras divisor * divisor <= numero Hacer
+				Si numero % divisor = 0 Entonces
+					esPrimo <- 0
+	finsi
+				divisor <- divisor + 1
+			Fin Mientras
+		Fin Si
+	finsi	
+		Si esPrimo = 1 Entonces
+			Escribir "El número es primo."
+		Sino
+			Escribir "El número no es primo."
+	Fin Si
+	Fin Algoritmo
